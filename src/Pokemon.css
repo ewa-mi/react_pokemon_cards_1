@@ -1,0 +1,46 @@
+.Items {
+  background-color: white;
+}
+
+.element {
+  border-bottom: 3px solid rgb(252, 119, 181);
+  border-left: 3px solid rgb(113, 223, 4);
+  border-right: 3px solid rgb(113, 223, 4);
+  padding-bottom: 20px;
+}
+
+.element:first-child {
+  border-top: 3px solid rgb(252, 119, 181);
+}
+
+.headingName {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.moreButton {
+  font-size: 18px;
+  color: #fff !important;
+  text-transform: uppercase;
+  background: rgb(252, 119, 181);
+  padding: 10px;
+  border-radius: 7px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+.moreButton:hover {
+  background: rgb(113, 223, 4);
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
